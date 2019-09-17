@@ -5,7 +5,30 @@
 </head>
 
 <body>
-  <p>HI</p>
+  <div id="News" class="tabcontent">
+  <h1>News</h1>
+  <p>London is the capital city of England.</p>
+</div>
+
+<div id="Work" class="tabcontent">
+  <h1>Paris</h1>
+  <p>Paris is the capital of France.</p>
+</div>
+
+<div id="webUpdates" class="tabcontent">
+  <h1>Tokyo</h1>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+
+<div id="About" class="tabcontent">
+  <h1>Oslo</h1>
+  <p>Oslo is the capital of Norway.</p>
+</div>
+
+<button class="tablink" onclick="changeTab('News', this, 'grey')" id="defaultOpen">News</button>
+<button class="tablink" onclick="changeTab('Work', this, 'grey')">Work</button>
+<button class="tablink" onclick="changeTab('webUpdates', this, 'grey')">Website Updates</button>
+<button class="tablink" onclick="changeTab('About', this, 'grey')">About/ Contact</button>
 </body>
 
 </html>

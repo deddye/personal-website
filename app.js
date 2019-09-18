@@ -2,6 +2,7 @@ function changeTab(tabName, elmnt, color) {
   // Hide all elements with class="tabcontent" by default */
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
+
   for (i = 0; i < tabcontent.length; i++) {
     tabcontent[i].style.display = "none";
   }
@@ -13,7 +14,7 @@ function changeTab(tabName, elmnt, color) {
   }
 
   // Show the specific tab content
-  document.getElementById(tabName).style.display = "inline";
+  document.getElementById(tabName).style.display = "block";
 
   // Add the specific color to the button used to open the tab content
   elmnt.style.backgroundColor = color;

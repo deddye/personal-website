@@ -26,7 +26,16 @@
   padding-top: 45px;
   color: white;
   display: none;
+  padding-left: 300px;
   text-align: left;
+}
+
+.tabtitle {
+  padding-right: 350px;
+  text-align: center;
+  color: white;
+  padding-top: 45px;
+
 }
 
 /* Style each tab content individually */

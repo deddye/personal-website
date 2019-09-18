@@ -1,5 +1,5 @@
  body{
-   background-color: #070711;
+   background-color: #0e0e21;
 
 }
 
@@ -18,7 +18,7 @@
 
 /* Change background color of buttons on hover */
 .tablink:hover {
-  background-color: #2D2C36;
+  background-color: #0e0e21;
 }
 
 /* Set default styles for tab content */
@@ -39,11 +39,11 @@
 }
 
 /* Style each tab content individually */
-#News {background-color:#070711;
+#News {background-color:#0e0e21;
 color: white;}
-#Work {background-color:#070711;
+#Work {background-color:#0e0e21;
 color: white;}
-#webUpdates {background-color:#070711;
+#webUpdates {background-color:#0e0e21;
 color: white;}
-#About {background-color:#070711;
+#About {background-color:#0e0e21;
 color: white;}

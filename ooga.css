@@ -26,13 +26,12 @@
   padding-top: 45px;
   color: white;
   display: none;
-  padding-left: 300px;
+  padding-left: 200px;
   text-align: left;
 }
 
 .tabtitle {
-  padding-right: 350px;
-  text-align: center;
+  margin: 0 auto;
   color: white;
   padding-top: 45px;
 

@@ -23,7 +23,7 @@
 
 /* Set default styles for tab content */
 .tabcontent {
-  padding-top: 45px;
+  padding-top: 100px;
   color: white;
   display: none;
   padding-left: 200px;
@@ -34,8 +34,20 @@
   margin: 0 auto;
   color: white;
   padding-top: 45px;
-
 }
+
+ .abHeading h1 {
+   display: inline;
+ }
+
+ .abHeading span {
+   float: right;
+   padding-right: 120px;
+ }
+
+ .importants {
+   padding-left: 1125px;
+ }
 
 /* Style each tab content individually */
 #News {background-color:#0e0e21;
